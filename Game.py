@@ -198,7 +198,7 @@ class Player(object):
 		self.name = name
 		self.attackCards = []
 		self.defenseCards = []
-		self.health = 1
+		self.health = 15
 		self.speed = 0
 
 	def getTotalResources(self):
