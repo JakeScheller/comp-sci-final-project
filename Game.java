@@ -94,7 +94,7 @@ class Player implements Comparable<Player> {
 		this.game = game;
 		this.attackCards = new ArrayList<Card>();
 		this.defenseCards = new ArrayList<Card>();
-		this.health = 1;
+		this.health = 15;
 		this.speed = 0;
 		this.isDead = false;
 	}
